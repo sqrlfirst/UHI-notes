@@ -1,66 +1,15 @@
-## Foundry
+# Points Hook
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+## Description
 
-Foundry consists of:
+The Hook is attached into `ETH <> TOKEN` pools. The aim is to incentivize swappers to buy `TOKEN` in exchange for `ETH`, and for `LPs` to add liquidity to the pool. Also users can refer to other users such that the referer will earn some commision every time the referree buys `TOKEN` for `ETH` or adds liquidity to the pool. This incentivization happens through the hook issuing a second `POINTS` token when desired action is occur.
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+1. When a user gets referred, we will mint a hardcoded amount of `POINTS` token to the referrer - for example `500 POINTS`.
+2. When a swap takes place which buys `TOKEN` for `ETH` - we will issue `POINTS` equivalent to how much `ETH` was swapped in to the user, and 10% of that amount to the referrer(if any).
+3. When someone adds liquidity, we will issue `POINTS` equivalent to how much `ETH` they added, and 10% of that amount to the referrer(if any).
 
-## Documentation
+## Chose of the hook functions
 
-https://book.getfoundry.sh/
+- for Case(1) - minting `POINTS` in case of swaps - `afterSwap`.
+- for Case(3) - adding of liquidity - `afterAddLiquidity`.
 
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
