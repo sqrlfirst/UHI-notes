@@ -25,8 +25,7 @@ contract PointsHook is BaseHook, ERC20 {
     constructor(
         IPoolManager _manager,
         string memory _name,
-        string memory _symbol,
-        string memory
+        string memory _symbol
     ) BaseHook(_manager) ERC20(_name, _symbol, 18) {}
 
     // set up hook permissions
