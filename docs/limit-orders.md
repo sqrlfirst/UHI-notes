@@ -21,3 +21,9 @@ Functions that needed:
 1. We are going to try and fulfill every order that exist within the range the tick moved after a swap, with zero considerationfor the fact that this will increase gas costs for the original swapper.
 2. We will not consider slippage for placed orders, and allow infinite slippage.
 3. We will not support pools with native ETH as one of the tokens in the pair.
+
+### Placing Order
+
+### Cancel Order
+
+### Redeem output tokens

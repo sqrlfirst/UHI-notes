@@ -1,6 +1,6 @@
 # UHI-notes
 
-Notes on [uniswap hook incubator](https://atrium.academy/uniswap) held by Atrium academy.
+Notes on [uniswap hook incubator](https://atrium.academy/uniswap) held by Atrium Academy.
 
 
 ## Topics
@@ -10,4 +10,4 @@ Notes on [uniswap hook incubator](https://atrium.academy/uniswap) held by Atrium
 
 ## Projects
 1. [Points Hook](./projects/point-hook/)
-2. [Limit Orders Hook](./projects/limit)
+2. [Limit Orders Hook](./projects/limit-orders/)
