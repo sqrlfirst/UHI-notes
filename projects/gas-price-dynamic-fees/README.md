@@ -32,3 +32,9 @@ To do that call the `updateDynamicSwapFee` function on the `PoolManager` at any 
 ```solidity
 poolManager.updateDynamicSwapFee(poolKey, NEW_FEES);
 ```
+
+
+
+## TODO 
+
+add fuzz test for hook
