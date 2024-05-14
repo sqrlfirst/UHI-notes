@@ -26,7 +26,7 @@ library HookMiner {
         uint160 flags,
         uint256 seed,
         bytes memory creationCode,
-        bytes memory constructorArgs
+        bytes memory constructorArgsgit
     ) external pure returns (address, bytes32) {
         address hookAddress;
         bytes memory creationCodeWithArgs = abi.encodePacked(
