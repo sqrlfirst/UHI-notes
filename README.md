@@ -8,12 +8,14 @@ Notes on [uniswap hook incubator](https://atrium.academy/uniswap) held by Atrium
 - [Ticks and Q64.96](./docs/week1_ticks_and_Q64_96.md)
 - [Limit orders](./docs/limit-orders.md)
 - [Dynamic Fees: Nezlobin's Directional Fee](./docs/dynamic_fees_nezlobin's_directional_fee.md)
+- [Custom curve and CSMM](./docs/custom_curve_CSMM.md) 
 
 ## Projects
 
 1. [Points Hook](./projects/point-hook/)
 2. [Limit Orders Hook](./projects/limit-orders/)
 3. [Gas Price Dynamic Hook](./projects/gas-price-dynamic-hook)
+4. [CSMM NoOp hook](./projects/csmm-noop)
 
 ## Useful links
 
