@@ -8,7 +8,8 @@ Notes on [uniswap hook incubator](https://atrium.academy/uniswap) held by Atrium
 - [Ticks and Q64.96](./docs/week1_ticks_and_Q64_96.md)
 - [Limit orders](./docs/limit-orders.md)
 - [Dynamic Fees: Nezlobin's Directional Fee](./docs/dynamic_fees_nezlobin's_directional_fee.md)
-- [Custom curve and CSMM](./docs/custom_curve_CSMM.md) 
+- [Custom curve and CSMM](./docs/custom_curve_CSMM.md)
+- [Known Effects of Hook Permissions](./docs/known_effects_of_hooks_permissions.md)
 
 ## Projects
 
